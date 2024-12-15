@@ -1,0 +1,42 @@
+
+body {
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px;
+    color: #333;
+    background: #c7fbff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', serif;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 10px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-div {
+    flex-grow:1;
+    flex: 0 0 50%;
+    transition: background 1s;
+}
+
+.flex-div:hover {
+    flex-grow:1;
+    background: #74eaf2;
+    flex: 0 0 50%;
+}
+
+img {
+    width: 100%;
+    height:auto;
+}
